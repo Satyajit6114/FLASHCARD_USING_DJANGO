@@ -1,85 +1,103 @@
-# Flashcard Web Application
+# 📚 Flashcard Web Application
 
-A Flashcard Web Application developed using **Python** and **Django** as part of the **30-Day Python Training Program** conducted by **C-DAC** at **Odisha University of Technology and Research (OUTR), Bhubaneswar**.
+A web-based Flashcard Application built using **Python** and **Django** during the **30-Day Python Training Program** organized by **CTTC** at **Odisha University of Technology and Research (OUTR), Bhubaneswar**.
 
-The project helps users create, organize, and review flashcards for effective learning and revision.
-
----
-
-## Project Overview
-
-This web application allows users to:
-
-- Create new flashcards
-- View all flashcards
-- Edit existing flashcards
-- Delete flashcards
-- Organize study materials efficiently
-- Learn through a simple and user-friendly interface
+This project enables users to create, manage, edit, and review flashcards through a simple and user-friendly web interface, making learning and revision more effective.
 
 ---
 
-## Features
+## 🚀 Project Overview
 
-- User-friendly interface
-- CRUD operations (Create, Read, Update, Delete)
-- Django-based backend
-- SQLite database
-- Responsive design
-- Easy navigation
+The Flashcard Web Application is designed to help students and learners organize study materials into flashcards.
+
+Users can:
+
+- ➕ Add new flashcards
+- 📖 View all flashcards
+- ✏️ Edit existing flashcards
+- ❌ Delete flashcards
+- 🎯 Revise concepts efficiently
 
 ---
 
-## Technologies Used
+## ✨ Features
+
+- Create Flashcards
+- Update Flashcards
+- Delete Flashcards
+- View All Flashcards
+- Django Forms
+- SQLite Database
+- Simple and Clean UI
+- Responsive Web Pages
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Django
-- HTML
-- CSS
-- SQLite
-- Bootstrap (if used)
+- HTML5
+- CSS3
+- SQLite3
 - Git
 - GitHub
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
-Flashcard/
+FLASHCARD_USING_DJANGO/
 │
-├── flashcards/
-├── templates/
-├── static/
-├── db.sqlite3
-├── manage.py
-├── requirements.txt
+├── flashcard/
+│   ├── flashcard/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── asgi.py
+│   │   └── wsgi.py
+│   │
+│   ├── quiz/
+│   │   ├── migrations/
+│   │   ├── templates/
+│   │   │   └── quiz/
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── forms.py
+│   │   ├── models.py
+│   │   ├── urls.py
+│   │   ├── views.py
+│   │   └── tests.py
+│   │
+│   ├── db.sqlite3
+│   └── manage.py
+│
 └── README.md
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-### Move into the project directory
+### Clone the Repository
 
 ```bash
-cd your-repository
+git clone https://github.com/Satyajit6114/FLASHCARD_USING_DJANGO.git
 ```
 
-### Create a virtual environment
+### Go to the Project Folder
+
+```bash
+cd FLASHCARD_USING_DJANGO/flashcard
+```
+
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### Activate the virtual environment
+### Activate Virtual Environment
 
 Windows
 
@@ -93,25 +111,25 @@ Linux/macOS
 source venv/bin/activate
 ```
 
-### Install dependencies
+### Install Django
 
 ```bash
-pip install -r requirements.txt
+pip install django
 ```
 
-### Apply migrations
+### Run Migrations
 
 ```bash
 python manage.py migrate
 ```
 
-### Run the development server
+### Start the Server
 
 ```bash
 python manage.py runserver
 ```
 
-Open your browser and visit
+Open your browser and visit:
 
 ```
 http://127.0.0.1:8000/
@@ -119,39 +137,38 @@ http://127.0.0.1:8000/
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-Add screenshots of your application here.
+Add screenshots of:
 
-Example:
-
-```
-screenshots/homepage.png
-screenshots/create_flashcard.png
-screenshots/view_flashcards.png
-```
+- Home Page
+- Add Flashcard Page
+- Flashcard List
+- Edit Flashcard
+- Delete Flashcard
 
 ---
 
-## Learning Outcomes
+## 🎓 Learning Outcomes
 
-Through this project, I learned:
+During this project, I learned:
 
-- Django project structure
-- Models, Views, and Templates (MVT Architecture)
-- URL routing
-- Database management using SQLite
-- CRUD operations
-- Django Admin Panel
-- Git and GitHub version control
+- Django Project Structure
+- Django MVT Architecture
+- URL Routing
+- Django Models
+- Django Forms
+- CRUD Operations
+- Database Management using SQLite
+- Git & GitHub
 
 ---
 
-## Training Details
+## 🏫 Training Details
 
-**Program:** 30-Day Python Training Program
+**Training Program:** 30-Day Python Training Program
 
-**Organized By:** C-DAC
+**Organized By:** Centre for Development of Advanced Computing (C-DAC)
 
 **Venue:** Odisha University of Technology and Research (OUTR), Bhubaneswar
 
@@ -159,33 +176,37 @@ Through this project, I learned:
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - User Authentication
-- Categories for flashcards
-- Search functionality
-- Dark mode
-- Quiz mode
-- Progress tracking
-- Image support
-- Spaced repetition algorithm
+- Search Flashcards
+- Categories and Tags
+- Quiz Mode
+- Spaced Repetition Algorithm
+- Progress Tracking
+- Dark Mode
+- Image Support
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Satyajit Sahoo**
 
-B.Tech in Information Technology
+B.Tech – Information Technology
 
 Odisha University of Technology and Research (OUTR), Bhubaneswar
 
-GitHub: https://github.com/your-username
-
-LinkedIn: https://linkedin.com/in/your-profile
+GitHub: https://github.com/Satyajit6114
 
 ---
 
-## License
+## ⭐ Acknowledgement
 
-This project is developed for educational purposes as part of the 30-Day Python Training Program conducted by C-DAC.
+This project was developed during the **30-Day Python Training Program** organized by **CTTC** at **Odisha University of Technology and Research (OUTR), Bhubaneswar**. The training provided valuable practical experience in Python and Django web development.
+
+---
+
+## 📄 License
+
+This project is intended for educational and learning purposes.
