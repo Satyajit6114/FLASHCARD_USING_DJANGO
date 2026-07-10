@@ -168,7 +168,7 @@ During this project, I learned:
 
 **Training Program:** 30-Day Python Training Program
 
-**Organized By:** Centre for Development of Advanced Computing (C-DAC)
+**Organized By:** Central Tool Room & Training Centre (CTTC)
 
 **Venue:** Odisha University of Technology and Research (OUTR), Bhubaneswar
 
